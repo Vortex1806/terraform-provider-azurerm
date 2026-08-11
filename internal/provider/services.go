@@ -109,7 +109,6 @@ import (
 	"github.com/hashicorp/terraform-provider-azurerm/internal/services/recoveryservices"
 	"github.com/hashicorp/terraform-provider-azurerm/internal/services/redhatopenshift"
 	"github.com/hashicorp/terraform-provider-azurerm/internal/services/redis"
-	"github.com/hashicorp/terraform-provider-azurerm/internal/services/redisenterprise"
 	"github.com/hashicorp/terraform-provider-azurerm/internal/services/relay"
 	"github.com/hashicorp/terraform-provider-azurerm/internal/services/resource"
 	"github.com/hashicorp/terraform-provider-azurerm/internal/services/search"
@@ -317,7 +316,6 @@ func SupportedUntypedServices() []sdk.UntypedServiceRegistration {
 			purview.Registration{},
 			recoveryservices.Registration{},
 			redis.Registration{},
-			redisenterprise.Registration{},
 			relay.Registration{},
 			resource.Registration{},
 			search.Registration{},
@@ -447,7 +445,6 @@ func SupportedFrameworkServices() []sdk.FrameworkServiceRegistration {
 		recoveryservices.Registration{},
 		redhatopenshift.Registration{},
 		redis.Registration{},
-		redisenterprise.Registration{},
 		relay.Registration{},
 		resource.Registration{},
 		search.Registration{},

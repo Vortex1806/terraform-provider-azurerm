@@ -484,7 +484,6 @@ service/redis:
   - any-glob-to-any-file:
     - internal/services/managedredis/**/*
     - internal/services/redis/**/*
-    - internal/services/redisenterprise/**/*
 
 service/relay:
 - changed-files:
